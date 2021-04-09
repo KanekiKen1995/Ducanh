@@ -1,0 +1,134 @@
+{
+    "Introduction": "Giới thiệu",
+    "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop": "là một khuôn khổ quốc tế hóa cung cấp giải pháp hoàn chỉnh để bản địa hóa sản phẩm của bạn từ web sang thiết bị di động và máy tính để bàn",
+    "Plugins to detect the user language": "Các plugin để phát hiện ngôn ngữ của người dùng",
+    "Plugins to load translations": "Plugin để tải bản dịch",
+    "Optionally cache the translations": "Tùy chọn ẩn bản dịch",
+    "Advantages": "Ưu điểm",
+    "Flexibility to use other packages": "Linh hoạt để sử dụng các gói khác",
+    "menu": {
+        "Contact": "Liên hệ",
+        "Careers": "Tuyển dụng"
+    },
+    "review": {
+        "Pick some photos to get started": "Chọn một số ảnh để bắt đầu",
+        "Upload Photos": "Tải lên ảnh",
+        "OR": "HOẶC",
+        "Import from Facebook": "Nhập từ facebook",
+        "Import from Instagram": "Nhập từ Instagram",
+        "filters": {
+            "ever": "Trắng Viền",
+            "clean": "Trắng",
+            "classic": "Đen Viền",
+            "bold": "Đen",
+            "edge": "edge",
+            "POPULAR": "POPULAR"
+        },
+        "Low Image Quality": "Chất lượng hình ảnh thấp",
+        "This photo is actually pretty small. It will probably make a blurry tile!": "Bức ảnh này thực sự khá nhỏ. Nó có thể sẽ làm cho một ô mờ!",
+        "This photo": "Bức ảnh này thực sự khá nhỏ. Nó có thể sẽ làm cho một ô mờ!",
+        "Keep Anyway": "Vẫn giữ",
+        "Remove From Order": "Xóa khỏi đơn đặt hàng",
+        "": ""
+    },
+    "cropperDialog": {
+        "Scroll to zoom, drag to move": "Cuộn để thu phóng, kéo để di chuyển",
+        "Remove Tile": "Xóa ảnh",
+        "Adjust Crop": "Cắt ảnh"
+    },
+    "home": {
+        "Turn your photos into affordable, stunning wall art": "Khung ảnh thông minh, không cần dùng đinh",
+        "\"This is heaven\"": "",
+        "Only US$11 each": "",
+        "Shipping is always free": "Vận chuyển luôn miễn phí",
+        "Millions Of Tiles Sold": "Hàng triệu bức tranh đã được bán ra",
+        "GRACING WALLS OF ALL KINDS": "Hàng nghìn bức tường đã trở nên tuyệt vời hơn bao giờ hết",
+        "One perfect size": "Một kích thước hoàn hảo",
+        "Tiles are 8 by 8": "Kích thước thông minh, sắp xếp linh hoạt, dễ bài trí có thể tái sử dụng không gây hư hỏng,không để lại dấu vết trên tường",
+        "Tiles are 8\" by 8\". They're removable, reusable and leave no marks.": "kích thước thông minh, sắp xếp linh hoạt, dễ bài trí có thể tái sử dụng không gây hư hỏng,không để lại dấu vết trên tường",
+        "4.8 STARS, 10,000+ APP STORE REVIEWS": "4,8 SAO, hơn 10.000 BÀI ĐÁNH GIÁ CỬA HÀNG ỨNG DỤNG",
+        "APP STORE REVIEWS": "4,8 SAO, hơn 10.000 BÀI ĐÁNH GIÁ CỬA HÀNG ỨNG DỤNG",
+        "You'll love our product or we'll return your money": "",
+        "Start": "Tải Ảnh Lên",
+        "": ""
+    },
+    "menuCheckOut": {
+        "Add Address": "Thêm địa chỉ",
+        "Edit Address": "Sửa địa chỉ",
+        "Add Payment Methods": "Thêm phương thức thanh toán",
+        "Checkout": "Đặt Hàng",
+        "Checkout2": "Thông tin giao hàng",
+        "Cash on Delivery": "Thanh toán khi giao hàng",
+        "Cash on Deliverys": "Thanh toán khi giao hàng",
+        "VNPays": "VNPays",
+        "VNPay": "VNPay",
+        "tiles": "Số lượng",
+        "unit": "cái",
+        "Shipping": "Vận chuyển",
+        "Free": "Miễn phí",
+        "Total": "Tổng cộng",
+        "Add some tiles": "Thêm một số ô",
+        "Free shipping note" : "Miễn phí vận chuyển với đơn hàng từ 4 tấm",
+        "Place Order" : "Xác nhận đơn hàng",
+        "": ""
+    },
+    "menuRight": {
+        "Frequent Questions": "Câu hỏi thường gặp",
+        "Chat with Us": "Trò chuyện với chúng tôi",
+        "": ""
+    },
+    "address": {
+        "Please insert your full name (first and last name)": "Vui lòng điền tên đầy đủ của bạn (họ và tên)",
+        "Full Name": "Họ và tên",
+        "Full Name placeholder": "Họ và tên đầy đủ",
+        "Address": "Địa chỉ",
+        "Street, House Number": "Đường phố, Số nhà",
+        "Address 2": "Địa chỉ 2",
+        "Apt/Suite/Unit (Optional)": "Apt/Suite/Unit (Không bắt buộc)",
+        "City": "Thành phố",
+        "State": "Tiểu bang",
+        "Zip Code": "Mã Bưu Chính",
+        "country": "Quốc gia",
+		"phone" : "Số điện thoại",
+		"phone placeholder" : "Số điện thoại di động",
+		"email" : "Email",
+		"email placeholder" : "nguyenvana@gmail.com",
+		"note" : "Lưu ý",
+		"note placeholder" : "Lưu ý khi sản xuất và giao hàng",
+        "": ""
+    },
+    "careers": {
+        "Software Development": "Phát triển phần mềm",
+        "Senior Full Stack Engineer": "Kỹ sư ngăn xếp đầy đủ cao cấp",
+        "Tel Aviv": "Tel Aviv",
+        "Apply": "Ứng dụng",
+        "Operations": "Hoạt động",
+        "Customer Service Operations Manager": "Giám đốc Hoạt động Dịch vụ Khách hàng",
+        "Data Analyst Lead": "Trưởng nhóm phân tích dữ liệu",
+        "Head of Physical Product Engineering": "Trưởng phòng Kỹ thuật Sản phẩm Vật lý",
+        "Strategic Materials Sourcing Specialist": "Chuyên gia tìm nguồn cung ứng nguyên liệu chiến lược",
+        "Supply Chain Coordinator": "Điều phối viên chuỗi cung ứng",
+        "HR": "Nhân sự",
+        "Finance": "Tài chính",
+        "Assistant Controller": "Assistant Controller",
+        "Bookkeeper": "Kế toán",
+        "": ""
+    },
+    "menuFooter": {
+        "CAREERS": "NGHỀ NGHIỆP",
+        "TERMS OF USE": "ĐIỀU KHOẢN SỬ DỤNG",
+        "ACCESSIBILITY STATEMENT": "BÁO CÁO KHẢ NĂNG TRUY CẬP",
+        "PRIVACY POLICY": "CHÍNH SÁCH BẢO MẬT",
+        "IMPRESSUM": "ẤN TƯỢNG",
+        "CONTACT": "LIÊN HỆ"
+    },
+    "dialog": {
+        "Done": "Xong"
+    },
+    "thankyou":{
+        "Thank You For Your Order!" : "Đặt Hàng Thành Công",
+        "Thank you message" : "Đơn hàng đã được đặt thành công . Chúng tôi sẽ liên hệ bạn qua số điện thoại trong thời gian sớm nhất",
+        "Continue shopping" : "Mua thêm",
+        "Go to homepage" : "Về trang chủ"
+    }
+}

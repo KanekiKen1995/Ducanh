@@ -1,0 +1,248 @@
+@import '../../../../variables';
+.pitch-page,
+.pitch-page .bottom-bar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+.pitch-page {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+}
+.Pitch-scrollable {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
+@media (max-width: 768px) {
+  .Pitch-pricing .text,
+  .Pitch-pricing .title {
+    padding: 0 20px;
+  }
+}
+
+.Pitch-box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#fff, #fafafa);
+  .logo {
+    margin-top: 20px;
+  }
+}
+.Pitch-pricing {
+  padding: 30px;
+  text-align: center;
+  .title {
+    margin-bottom: 10px;
+  }
+}
+.White-section {
+  background: #fff;
+  box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+  .title {
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    color: $primaryColor;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .text {
+    font-weight: 600;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+    display: unset;
+  }
+}
+.Pitch-header {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 24px 20px 20px;
+  @media (min-width: 600px) {
+    font-size: 42px;
+    line-height: 52px;
+    max-width: 780px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.PitchMedia.visible {
+  opacity: 1;
+}
+.PitchMedia {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  width: 100%;
+}
+.Pitch-pr-bit {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Pitch-box-2 {
+  padding-bottom: 10px;
+}
+.Pitch-tiles-sold {
+  margin-top: 10px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+.Pitch-guarantee,
+.Pitch-reviews {
+  font-weight: 700;
+  text-align: center;
+}
+.Pitch-reviews {
+  padding: 30px;
+  color: $primaryColor;
+}
+.Pitch-guarantee {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  justify-content: space-between;
+}
+.bottom {
+  margin-top: 30px;
+  font-size: 17px;
+}
+.part-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .MenuItem {
+    font-size: 9px;
+    margin-left: 5px;
+    letter-spacing: 1.25px;
+    color: #bfbfbf;
+  }
+}
+.part-b {
+  text-align: center;
+  font-size: 9px;
+  color: #bfbfbf;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 1px;
+  letter-spacing: 1.25px;
+}
+
+.bottom-bar {
+  position: fixed;
+  box-shadow: 0 -2px 5px rgb(50 50 50 / 20%);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  z-index: 1;
+  transition: all 5s;
+}
+.pitch-page .bottom-button-container {
+  padding: 15px;
+}
+.bottom-button {
+  position: relative;
+  background-color: $primaryColor;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: box-shadow 0.3s, background-color 0.3s;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.language {
+  position: relative;
+  margin: 0 auto 30px;
+  width: 145px;
+  padding: 7px 10px;
+  overflow: hidden;
+  z-index: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #878787;
+  font-size: 12px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #fff;
+  transition: box-shadow 0.2s;
+}
+.press-logo {
+  width: 64px;
+  height: 10px;
+}
+.Pitch-gracing-walls,
+.Pitch-reviews {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  .stars-image{
+    height: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    div{
+      width: 26px;
+      height: 26px;
+      
+      svg{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.Pitch-gracing-walls {
+  font-weight: 600;
+  color: grey;
+  margin-top: 8px;
+}
+.Spacer {
+  height: 80px;
+  visibility: hidden;
+}
+.video-container,
+.video-container video{
+  width: auto;
+}
+.video-container video{
+  height: 450px;
+}
+@media (max-width: 768px) {
+  .video-container{
+    padding: 0 15px;
+  }
+  .video-container,
+  .video-container video{
+    height: auto;
+    width: 100%;
+  }
+}

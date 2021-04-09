@@ -1,0 +1,125 @@
+{
+	"Introduction": "Introduction",
+	"is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop": "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop",
+	"Plugins to detect the user language": "Plugins to detect the user language 213",
+	"Plugins to load translations": "Plugins to load translations",
+	"Optionally cache the translations": "Optionally cache the translations",
+	"Advantages": "Advantages",
+	"Flexibility to use other packages": "Flexibility to use other packages",
+	"menu": {
+		"Contact": "Contact Us",
+		"Careers": "Careers"
+	},
+	"review": {
+		"Pick some photos to get started": "Pick some photos to get started",
+		"Upload Photos": "Upload Photos",
+		"OR": "OR",
+		"Import from Facebook": "Import from Facebook",
+		"Import from Instagram": "Import from Instagram",
+		"filters": {
+			"ever": "ever",
+			"clean": "clean",
+			"classic": "classic",
+			"bold": "bold",
+			"edge": "edge",
+			"POPULAR": "POPULAR"
+		},
+		"Low Image Quality": "Low Image Quality",
+		"This photo is actually pretty small. It will probably make a blurry tile!": "This photo is actually pretty small. It will probably make a blurry tile!",
+		"This photo": "This photo is actually pretty small. It will probably make a blurry tile!",
+		"Keep Anyway": "Keep Anyway",
+		"Remove From Order": "Remove From Order",
+		"": ""
+	},
+	"cropperDialog": {
+		"Scroll to zoom, drag to move": "Scroll to zoom, drag to move",
+		"Remove Tile": "Remove Tile",
+		"Adjust Crop": "Adjust Crop"
+	},
+	"home": {
+		"Turn your photos into affordable, stunning wall art": "Turn your photos into affordable, stunning wall art",
+		"\"This is heaven\"": "\"This is heaven\"",
+		"Only US$11 each": "Only US$11 each",
+		"Shipping is always free": "Shipping is always free",
+		"Millions Of Tiles Sold": "Millions Of Tiles Sold",
+		"GRACING WALLS OF ALL KINDS": " GRACING WALLS OF ALL KINDS",
+		"One perfect size": "One perfect size",
+		"Tiles are 8 by 8": "Tiles are 8\" by 8\". They're removable, reusable and leave no marks.",
+		"Tiles are 8\" by 8\". They're removable, reusable and leave no marks.": "Tiles are 8\" by 8\". They're removable, reusable and leave no marks.",
+		"4.8 STARS, 10,000+ APP STORE REVIEWS": "4.8 STARS, 10,000+ APP STORE REVIEWS",
+		"APP STORE REVIEWS": "4.8 STARS, 10,000+ APP STORE REVIEWS",
+		"You'll love our product or we'll return your money": " You'll love our product or we'll return your money",
+		"Start": "Start",
+		"": ""
+	},
+	"menuCheckOut": {
+		"Add Address": "Add Address",
+		"Edit Address": "Edit Address",
+		"Add Payment Methods": "Add Payment Methods",
+		"Checkout": "Checkout",
+		"Cash on Delivery": "Cash on Delivery",
+		"Cash on Deliverys": "Cash on Deliverys",
+		"VNPays": "VNPays",
+		"VNPay": "VNPay",
+		"tiles": "tiles",
+		"Shipping": "Shipping",
+		"Free": "Free",
+		"Total": "Total",
+		"Add some tiles": "Add some tiles",
+		"Free shipping note" : "Free shipping with order from 4 tiles",
+		"": ""
+	},
+	"menuRight": {
+		"Frequent Questions": "Frequent Questions",
+		"Chat with Us": "Chat with Us",
+		"": ""
+	},
+	"address": {
+		"Please insert your full name (first and last name)": "Please insert your full name (first and last name)",
+		"Full Name": "Full Name",
+		"Full Name placeholder": "Enter your full name",
+		"Address": "Address",
+		"Street, House Number": "Street, House Number",
+		"Address 2": "Address 2",
+		"Apt/Suite/Unit (Optional)": "Apt/Suite/Unit (Optional)",
+		"City": "City",
+		"State": "State",
+		"Zip Code": "Zip Code",
+		"country": "country",
+		"phone" : "Phone",
+		"phone placeholder" : "Enter your phone",
+		"email" : "Email",
+		"email placeholder" : "Enter your mail",
+		"note" : "Note",
+		"note placeholder" : "Enter your note",
+		"": ""
+	},
+	"careers": {
+		"Software Development": "Software Development",
+		"Senior Full Stack Engineer": "Senior Full Stack Engineer",
+		"Tel Aviv": "Tel Aviv",
+		"Apply": "Apply",
+		"Operations": "Operations",
+		"Customer Service Operations Manager": "Customer Service Operations Manager",
+		"Data Analyst Lead": "Data Analyst Lead",
+		"Head of Physical Product Engineering": "Head of Physical Product Engineering",
+		"Strategic Materials Sourcing Specialist": "Strategic Materials Sourcing Specialist",
+		"Supply Chain Coordinator": "Supply Chain Coordinator",
+		"HR": "HR",
+		"Finance": "Finance",
+		"Assistant Controller": "Assistant Controller",
+		"Bookkeeper": "Bookkeeper",
+		"": ""
+	},
+	"menuFooter": {
+		"CAREERS": "CAREERS",
+		"TERMS OF USE": "TERMS OF USE",
+		"ACCESSIBILITY STATEMENT": "ACCESSIBILITY STATEMENT",
+		"PRIVACY POLICY": "PRIVACY POLICY",
+		"IMPRESSUM": "IMPRESSUM",
+		"CONTACT": "CONTACT"
+	},
+	"dialog": {
+		"Done": "Done"
+	}
+}

@@ -1,0 +1,143 @@
+@import '../../../../variables';
+.FormInput.invalidate {
+  background-color: #ff7976 !important ;
+}
+.newInputWrapper {
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  padding: 0;
+  .InputLabel {
+    width: 140px;
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 5px 0;
+    margin-right: 10px;
+  }
+  .newFormStyle {
+    display: inline;
+    width: 100%;
+    background: #fff;
+    height: auto;
+    padding: 14px 0;
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+    border-bottom: 0;
+  }
+  .newInputWrapper .newFormStyle {
+    display: inline;
+    width: 100%;
+    background: #fff;
+    height: auto;
+    padding: 14px 0;
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+    border-bottom: 0;
+  }
+}
+
+.InputLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+@media (min-width: 960px) {
+  .address-form .search-for-address .country-select,
+  .address-form .search-for-address input,
+  .address-form form .country-select,
+  .address-form form input {
+    background: #f7f7f7 !important;
+  }
+}
+.FormInput {
+  background-color: #f7f7f7;
+  border: none;
+  border-bottom: 2px solid #fff;
+  height: 45px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: background-color 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.address-form {
+  overflow: hidden;
+  form {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    background: #fff;
+    margin: 0 10px 5px;
+    border-radius: 5px;
+    box-shadow: -1px 3px 7px rgb(157 133 133 / 10%);
+  }
+}
+@media (min-width: 960px) {
+  .address-form {
+    min-width: 600px;
+    form {
+      margin: 7px 50px 10px 0px;
+      box-shadow: none;
+      background: #f7f7f7 !important;
+    }
+  }
+  .mixtiles-form {
+    background: none;
+  }
+}
+.mixtiles-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  // background: #f7f7f7;
+  padding-bottom: 15px;
+  margin-top: 30px;
+}
+.country-select-container {
+  position: relative;
+  display: flex;
+}
+.DummySubmit {
+  display: none;
+}
+.country-select {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #fff;
+  border: none;
+  border-bottom: 0 solid #ededed;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.country-select-container .label {
+  text-transform: uppercase;
+  width: 140px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.address-form .error {
+  color: $primaryColor;
+  text-align: center;
+  margin: 0;
+  padding: 0 10px;
+  -webkit-animation: address-error-show 0.4s;
+  animation: address-error-show 0.4s;
+  height: 40px;
+}

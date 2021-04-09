@@ -1,0 +1,88 @@
+@import '../../../../variables';
+.CareersPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    .team-photo {
+        max-width: 774.5px;
+        width: 100%;
+        max-height: 500px;
+    }
+    .job-departments {
+        width: 100%;
+        max-width: 734px;
+    }
+    .JobDepartment{
+        .department-name {
+            color: #24252b;
+            font-weight: 700;
+            font-size: 24px;
+            margin-top: 40px;
+        }
+    }
+    .PinkButton {
+        background-color: $primaryColor;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: background-color .2s,box-shadow .3s;
+        height: 52px;
+    }
+
+    .JobPosition {
+        display: flex;
+        align-items: center;
+        height: 89px;
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+            .job-info {
+                display: flex;
+                flex-direction: column;
+            }
+            .PinkButton {
+                font-weight: 700;
+                flex-shrink: 0;
+                margin-left: 10px;
+                width: 100px;
+                height: 35px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (min-width: 960px){
+    .PinkButton {
+        height: 59px;
+    }
+}
+
+@media (min-width: 600px){
+    .JobDepartment{
+        .department-name {
+            margin-top: 55px;
+            font-size: 27px;
+        }
+    }
+    .JobPosition {
+        height: 109px;
+        border-bottom: 2px solid #ededed;
+    }
+    .PinkButton {
+        width: 121px;
+        height: 40px;
+        font-size: 18px;
+    }
+}

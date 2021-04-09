@@ -1,0 +1,38 @@
+@import '../../../variables';
+.static-page-component.top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84%;
+    max-width: 1000px;
+    margin: 25px auto 0;
+    a{
+        color: $primaryColor;
+    }
+    .menu-items {
+        flex-direction: row;
+        display: none;
+        .MenuItem {
+            margin-left: 22px;
+            color: grey;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 14.5px;
+            cursor: pointer;
+            font-weight: 700;
+            a {
+                text-decoration: none;
+                color: unset;
+            }
+        }
+    }
+}
+
+@media (min-width: 960px){
+    .static-page-component.top-menu{
+        margin: 50px auto;
+        .menu-items {
+            display: flex;
+        }
+    }
+}

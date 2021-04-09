@@ -1,0 +1,89 @@
+@import '../../../variables';
+.ReviewActionBars{
+    z-index: 1003;
+    width: 100%;
+    position: fixed;
+    top:0;
+    .top-bar-container{
+        margin-bottom: 0;
+        z-index: 1003;
+        box-shadow: 0 4px 9px rgb(0 0 0 / 5%);
+        padding-top: 10px;
+        border-bottom: 1px solid rgba(0,0,0,.05);
+        padding-bottom: 10px;
+        position: relative;
+        padding-right: 15px;
+        background-color: #fff;
+        width: calc(100vw - 15px);
+        padding-right: 15px;
+        .top-bar{
+            height: 50px;
+            display: flex;
+            flex-shrink: 0;
+            align-items: center;
+            padding-top: 0;
+            .back-button{
+                position: absolute;
+                left: 10px;
+                z-index: 2;
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                box-sizing: border-box;
+                padding: 12px;
+                border-radius: 50%;
+                &:hover{
+                    background-color: #f2f2f2;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .logo{
+                flex-grow: 1;
+                text-align: center;
+                img{
+                    cursor: pointer;
+                    padding: 10px;
+                }
+            }
+            .menu-button{
+                position: absolute;
+                right: 10px;
+                z-index: 2;
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                box-sizing: border-box;
+                padding: 12px;
+                border-radius: 50%;
+                &:hover{
+                    background-color: #f2f2f2;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+.faq-content {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+    .FaqItem .question {
+        color: $primaryColor;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .FaqItem .answer {
+        color: #333;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+}

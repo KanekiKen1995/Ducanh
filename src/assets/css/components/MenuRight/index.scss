@@ -1,0 +1,80 @@
+.menu-top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 88px;
+  margin-bottom: 10px;
+
+  .logo {
+    width: calc(100% - 52px);
+    border-bottom: 1px solid #ededed;
+    justify-content: center;
+    display: flex;
+    img {
+      width: 100px;
+    }
+  }
+  .CloseButton {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 34px;
+    width: 34px;
+  }
+  .CloseButton {
+    color: #8c8c8c;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    background: #ededed;
+    border-radius: 19px;
+    padding: 0;
+  }
+  .icon-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 16px;
+    height: 22px;
+  }
+}
+.menu-items {
+  padding: 0 6px;
+}
+.MixtilesMenuItem {
+  transition: opacity 0.3s;
+  box-sizing: border-box;
+  align-items: center;
+  min-width: 237px;
+  min-height: 70px;
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 17px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  p {
+    padding-top: 2px;
+    padding-left: 18px;
+    flex-grow: 1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+.list {
+  box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.21) !important;
+  overflow: visible !important;
+  width: 363px;
+  max-width: 85vw;
+  height: 100%;
+}
