@@ -1,5 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
 import "../../assets/css/components/Slider/index.scss";
 
 import {
@@ -19,6 +20,7 @@ import {
 } from "../../assets/imgs";
 
 const SliderImg = () => {
+    const { t } = useTranslation();
     const settings = {
         dots: true,
         swipeToSlide: true,
@@ -57,63 +59,63 @@ const SliderImg = () => {
     const sliderData = [
         {
             img: Nature1,
-            author: "minhhoang",
-            review: "Phòng khách của tôi trông sang trọng hơn rất nhiều <3"
+            author: t("Slide.name1"),
+            review: t("Slide.review1")
         },
         {
             img: Nature2,
-            author: "nguyenthuy112",
-            review: "Tôi đã có một lựa chọn đúng đắn. Cảm ơn Mixtiles!"
+            author: t("Slide.name2"),
+            review: t("Slide.review2")
         },
         {
             img: Nature3,
-            author: "vananh56",
-            review: "Tôi đi lên cầu thang hằng ngày luôn!"
+            author: t("Slide.name3"),
+            review: t("Slide.review3")
         },
         {
             img: Nature4,
-            author: "namdoan",
-            review: "Góc thư giãn hằng ngày của tôi!"
+            author: t("Slide.name4"),
+            review: t("Slide.review4")
         },
         {
             img: Nature5,
-            author: "khanhnam0902",
-            review: "Những bãi biển tôi đã từng đi này :D !!"
+            author: t("Slide.name5"),
+            review: t("Slide.review5")
         },
         {
             img: Nature6,
-            author: "minhchien",
-            review: "Đi về nhà!"
+            author: t("Slide.name6"),
+            review: t("Slide.review6")
         },
         {
             img: Nature7,
-            author: "vuhuy82",
-            review: "Vợ con tôi, gia đình tôi! <3"
+            author: t("Slide.name7"),
+            review: t("Slide.review7")
         },
         {
             img: Nature8,
-            author: "thangdang",
-            review: "Ngủ ngon nhé :>, tôi chắc chắn sẽ tiếp tục mua thêm để trang trí phòng khách :>"
+            author: t("Slide.name8"),
+            review: t("Slide.review8")
         },
         {
             img: Nature9,
-            author: "phungmy",
-            review: "Đằng sau bức tường là cả 1 câu chuyện tình yêu <3 ! Cảm ơn Mixtiles nhiều nhéee ^^"
+            author: t("Slide.name9"),
+            review: t("Slide.review9")
         },
         {
             img: Nature10,
-            author: "chidang",
-            review: "Chỉ định dùng thử thôi, nhưng giờ thành fan cứng :D <3 #MixtilesVietNam"
+            author: t("Slide.name10"),
+            review: t("Slide.review10")
         },
         {
             img: Nature11,
-            author: "chithanh",
-            review: "Aaaaaaaa, cảm ơn Mixtiles nhé <3"
+            author: t("Slide.name11"),
+            review: t("Slide.review11")
         },
         {
             img: Nature12,
-            author: "nguyetnguyen",
-            review: "Mỗi nơi mỗi khác!"
+            author: t("Slide.name12"),
+            review: t("Slide.review12")
         }
     ]
     return (
@@ -122,7 +124,7 @@ const SliderImg = () => {
                 {sliderData.map((e, i) => {
                     return (
                         // phải style thằng width mới ăn
-                        <div key={e + i} style={{width: 330}}>
+                        <div key={e + i} style={{ width: 330 }}>
                             <div>
                                 <div className="testimonial-item">
                                     <div className="OptimizedImage testimonial-image">

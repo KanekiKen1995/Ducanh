@@ -1,16 +1,16 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./Fixed.scss";
-import {useTranslation} from "react-i18next";
-import {backArrow, menuIcon} from "../../../assets/icons";
+import { useTranslation } from "react-i18next";
+import { backArrow, menuIcon } from "../../../assets/icons";
 import logo from "../../../assets/icons/logoReview.svg";
-import {Drawer} from "../../Drawer";
+import { Drawer } from "../../Drawer";
 import DialogActions from "../../DialogAction";
 import MenuRight from "../MenuRight";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
-import {useHistory} from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const Fixed = (props) => {
-    const {t} = useTranslation();
+    const { t } = useTranslation();
     const [state, setState] = React.useState(false);
     const [openDialog, setOpenDialog] = React.useState(false);
 
@@ -42,13 +42,13 @@ const Fixed = (props) => {
             <div className="top-bar-container">
                 <div className="top-bar">
                     <div className="back-button" onClick={handleBackHome}>
-                        <img src={backArrow}/>
+                        <img src={backArrow} />
                     </div>
                     <div className="logo" onClick={handleBackHome}>
-                        <img src={logo}/>
+                        <img src={logo} />
                     </div>
                     <div className="menu-button" onClick={toggleDrawer(true)}>
-                        <img src={menuIcon}/>
+                        <img src={menuIcon} />
                     </div>
                 </div>
                 <div></div>
@@ -70,63 +70,55 @@ const Fixed = (props) => {
             <DialogActions
                 handleClose={handleClose}
                 open={openDialog}
-                title="Frequent Questions"
+                title={t("FrequentQuestionsed.Frequent Questions")}
             >
                 <div className="faq-modal">
                     <div className="faq-content">
                         <div className="FaqItem">
-                            <div className="question">Chi phí của Mixtiles là bao nhiêu?</div>
-                            <div className="answer">Mỗi tranh bạn mua sẽ có giá 70.000 VNĐ. Nếu bạn mua từ 4 tranh trở
-                                lên, chúng tôi sẽ ship hàng miễn phí!
+                            <div className="question">{t("FrequentQuestionsed.How much does Mixtiles cost")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.Each picture you buy will cost 70,000 VND If you buy 4 or more pictures, we will ship the item for free!")}
                             </div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Kích thước ô là bao nhiêu như thế nào?</div>
-                            <div className="answer">Chúng có kích thước khoảng 20 x 20 x 2 cm (8 x 8 inch và chỉ dày
-                                dưới 1 inch).
+                            <div className="question">{t("FrequentQuestionsed.What is the cell size")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.They measure about 20 x 20 x 2 cm (8 x 8 inches and just under 1 inch thick)")}
                             </div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Bạn có kích thước nào khác không?</div>
-                            <div className="answer">Giờ thì không, nhưng chúng tôi sẽ cố gắng!</div>
+                            <div className="question">{t("FrequentQuestionsed.Do you have any other sizes")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.Not now, but we will try")}</div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Việc lên hàng mất bao lâu?</div>
-                            <div className="answer">Thường là khoảng một tuần để đảm bảo chất lượng tranh tốt nhất.
+                            <div className="question">{t("FrequentQuestionsed.How long does loading take")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.It usually takes about a week to ensure the best quality of painting")}
                             </div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Cách thức hoạt động của Mixtile?</div>
-                            <div className="answer">Có một dải băng dính đặc biệt ở mặt sau của chúng. Bạn bóc lớp giấy
-                                bảo vệ và dán chúng lên tường. Dễ như ăn bánh! (Chúng tôi thưởng thức bánh.)
+                            <div className="question">{t("FrequentQuestionsed.How Mixtile works")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.There is a special adhesive tape on the back of them You peel off the protective paper and stick them on the wall Easy as pie! (We enjoy the cake)")}
                             </div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Có dễ dàng di chuyển tranh xung quanh không?</div>
-                            <div className="answer">Siêu dễ dàng - đó là những gì khiến Mixtiles tự hào! Chỉ cần lấy
-                                chúng ra khỏi tường và dán chúng vào một vị trí khác. Bạn có thể làm điều này vài chục
-                                lần!
+                            <div className="question">{t("FrequentQuestionsed.Is it easy to move pictures around")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.Super easy - that's what makes Mixtiles proud! Just take them off the wall and stick them in a different location You can do this a few dozen times")}
                             </div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Và chúng sẽ không làm tổn thương những bức tường của tôi?</div>
-                            <div className="answer">Không, không hề thiệt hại nào.</div>
+                            <div className="question">{t("FrequentQuestionsed.And they won't hurt my walls")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.No, no damage at all")}</div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question"/>
-                            <div className="answer"/>
+                            <div className="question" />
+                            <div className="answer" />
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Có bất kỳ loại tường nào mà Mixtiles không dính vào?</div>
-                            <div className="answer">Chúng hoạt động hiệu quả trên phần lớn các bức tường. Nhưng nếu bạn
-                                gặp bất kỳ sự cố nào, chỉ cần cho chúng tôi biết và chúng tôi sẽ hỗ trợ bạn.
+                            <div className="question">{t("FrequentQuestionsed.Is there any kind of wall that Mixtiles doesn't stick to")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.They work effectively on most walls But if you have any issues, just let us know and we will assist you")}
                             </div>
                         </div>
                         <div className="FaqItem">
-                            <div className="question">Có độ phân giải ảnh tối thiểu mà tôi nên sử dụng không?</div>
-                            <div className="answer">Các bức ảnh của bạn phải có kích thước ít nhất là 800 x 800
-                                pixel để tạo ra bản in rõ ràng. Ứng dụng sẽ cảnh báo bạn nếu các bức ảnh của bạn nhỏ
-                                hơn thế.
+                            <div className="question">{t("FrequentQuestionsed.Is there a minimum photo resolution I should be using")}</div>
+                            <div className="answer">{t("FrequentQuestionsed.Your photos should be at least 800 x 800 pixels in size to produce a clear print The app will warn you if your photos are smaller than that")}
                             </div>
                         </div>
                         {/*<div className="FaqItem">*/}

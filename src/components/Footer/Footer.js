@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Footer.scss'
-import {useTranslation} from 'react-i18next';
-import {Link} from "react-router-dom";
-import {localeEn, localeVi} from '../../assets/icons'
+import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+import { localeEn, localeVi } from '../../assets/icons'
 
 import Dialog from "@material-ui/core/Dialog";
 import MuiDialogTitle from "@material-ui/core/DialogTitle";
@@ -11,7 +11,7 @@ import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
 
 const Footer = () => {
-    const {t, i18n} = useTranslation();
+    const { t, i18n } = useTranslation();
     const [openLangSelector, setOpenLangSelector] = useState(false)
     const handleChangeLanguage = (lang) => {
         i18n.changeLanguage(lang);
@@ -74,36 +74,57 @@ const Footer = () => {
                 {/*</div>*/}
             </div>
             <div className="bottom">
-                <div className="part-a">
-                    <div className="MenuItem">
-                        <Link to="/terms-of-service" target="_blank">
-                            {t("menuFooter.TERMS OF USE")}
-                        </Link>
+                <div className="menu-about">
+                    <div className='contact-bottom'>
+                        <div className="textFooter">
+                            {t("menuFooter.About us")}
+                        </div>
+                        <div className="textFooter">
+                            {t("menuFooter.Mixtiles Việt Nam")}
+                        </div>
+                        <div className="textFooter">
+                            {t("menuFooter.Hotline")}
+                        </div>
+                        <div className="textFooter">
+                            {t("menuFooter.Email")}
+                        </div>
+                        <div className="textFooter">
+                            {t("menuFooter.Facebook")}
+                            <a href={t("menuFooter.LinkFb")}> ({t("menuFooter.Link")})</a>
+                        </div>
                     </div>
-                    <div className="MenuItem">
-                        <a target="_self">|</a>
+                    <div className="part-a-mobile">
+                        <div className="MenuItem">
+                            <Link to="/terms-of-service" target="_blank">
+                                {t("menuFooter.TERMS OF USE")}
+                            </Link>
+                        </div>
+                        <div className="MenuItem">
+                            <a target="_self">|</a>
+                        </div>
+                        <div className="MenuItem">
+                            <Link to="/accessibility-statement" target="_blank">
+                                {t("menuFooter.ACCESSIBILITY STATEMENT")}
+                            </Link>
+                        </div>
+                        <div className="MenuItem">
+                            <a target="_self">|</a>
+                        </div>
+                        <div className="MenuItem">
+                            <Link to="/privacy-notice" target="_blank">
+                                {t("menuFooter.PRIVACY POLICY")}
+                            </Link>
+                        </div>
+                        <div className="MenuItem">
+                            <a target="_self">|</a>
+                        </div>
+                        <div className="MenuItem">
+                            <Link to="/impressum" target="_blank">
+                                {t("menuFooter.IMPRESSUM")}
+                            </Link>
+                        </div>
                     </div>
-                    <div className="MenuItem">
-                        <Link to="/accessibility-statement" target="_blank">
-                            {t("menuFooter.ACCESSIBILITY STATEMENT")}
-                        </Link>
-                    </div>
-                    <div className="MenuItem">
-                        <a target="_self">|</a>
-                    </div>
-                    <div className="MenuItem">
-                        <Link to="/privacy-notice" target="_blank">
-                            {t("menuFooter.PRIVACY POLICY")}
-                        </Link>
-                    </div>
-                    <div className="MenuItem">
-                        <a target="_self">|</a>
-                    </div>
-                    <div className="MenuItem">
-                        <Link to="/impressum" target="_blank">
-                            {t("menuFooter.IMPRESSUM")}
-                        </Link>
-                    </div>
+
                 </div>
                 <div className="part-b">© Copyright By LLLLLL</div>
             </div>
@@ -113,14 +134,14 @@ const Footer = () => {
         <div className="language_selector_wrapper">
             <div className="trigger" onClick={() => setOpenLangSelector(true)}>
                 <div className="arrow"></div>
-                <img className="flag" src={selectedLang.flag}/>
+                <img className="flag" src={selectedLang.flag} />
                 <span>{selectedLang.label}</span>
             </div>
             <Dialog aria-labelledby="language_selector_title" open={openLangSelector} maxWidth='sm'>
                 <MuiDialogTitle disableTypography className={'lang-selector-topbar'} id="language_selector_title">
                     <IconButton aria-label="close" className={'lang-selector-topbar--close-button'}
-                                onClick={() => setOpenLangSelector(false)}>
-                        <CloseIcon/>
+                        onClick={() => setOpenLangSelector(false)}>
+                        <CloseIcon />
                     </IconButton>
                     <span className={'lang-selector-topbar--title'}>{"Change Language"}</span>
                     <span className={'lang-selector-topbar--done-button'}></span>
@@ -134,8 +155,8 @@ const Footer = () => {
                                     setOpenLangSelector(false)
                                 } : () => {
                                 }} className={i18n.language == lang.id ? "selected" : ""}><img className="flag"
-                                                                                               src={lang.flag}
-                                                                                               alt="flag"/><span>{lang.label}</span>
+                                    src={lang.flag}
+                                    alt="flag" /><span>{lang.label}</span>
                                 </li>
                             ))}
                         </ul>

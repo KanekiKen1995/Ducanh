@@ -68,8 +68,8 @@
         "Free": "Miễn phí",
         "Total": "Tổng cộng",
         "Add some tiles": "Thêm một số ô",
-        "Free shipping note" : "Miễn phí vận chuyển với đơn hàng từ 4 tấm",
-        "Place Order" : "Xác nhận đơn hàng",
+        "Free shipping note": "Miễn phí vận chuyển với đơn hàng từ 4 tấm",
+        "Place Order": "Xác nhận đơn hàng",
         "": ""
     },
     "menuRight": {
@@ -89,12 +89,12 @@
         "State": "Tiểu bang",
         "Zip Code": "Mã Bưu Chính",
         "country": "Quốc gia",
-		"phone" : "Số điện thoại",
-		"phone placeholder" : "Số điện thoại di động",
-		"email" : "Email",
-		"email placeholder" : "nguyenvana@gmail.com",
-		"note" : "Lưu ý",
-		"note placeholder" : "Lưu ý khi sản xuất và giao hàng",
+        "phone": "Số điện thoại",
+        "phone placeholder": "Số điện thoại di động",
+        "email": "Email",
+        "email placeholder": "nguyenvana@gmail.com",
+        "note": "Lưu ý",
+        "note placeholder": "Lưu ý khi sản xuất và giao hàng",
         "": ""
     },
     "careers": {
@@ -120,15 +120,68 @@
         "ACCESSIBILITY STATEMENT": "BÁO CÁO KHẢ NĂNG TRUY CẬP",
         "PRIVACY POLICY": "CHÍNH SÁCH BẢO MẬT",
         "IMPRESSUM": "ẤN TƯỢNG",
-        "CONTACT": "LIÊN HỆ"
+        "About us": "About us:",
+        "Mixtiles Việt Nam": " Mixtiles Việt Nam",
+        "Hotline": "Hotline: 0962.971.666",
+        "Email": "Email: Hi@MixtilesVietNam.com",
+        "Facebook": " Facebook: Mixtiles Việt Nam",
+        "Link": "Đường dẫn",
+        "LinkFb": "https://www.facebook.com/"
     },
     "dialog": {
         "Done": "Xong"
     },
-    "thankyou":{
-        "Thank You For Your Order!" : "Đặt Hàng Thành Công",
-        "Thank you message" : "Đơn hàng đã được đặt thành công . Chúng tôi sẽ liên hệ bạn qua số điện thoại trong thời gian sớm nhất",
-        "Continue shopping" : "Mua thêm",
-        "Go to homepage" : "Về trang chủ"
+    "thankyou": {
+        "Thank You For Your Order!": "Đặt Hàng Thành Công",
+        "Thank you message": "Đơn hàng đã được đặt thành công . Chúng tôi sẽ liên hệ bạn qua số điện thoại trong thời gian sớm nhất",
+        "Continue shopping": "Mua thêm",
+        "Go to homepage": "Về trang chủ"
+    },
+    "FrequentQuestionsed": {
+        "Frequent Questions": "Câu hỏi thường gặp",
+        "How much does Mixtiles cost": "Chi phí của Mixtiles là bao nhiêu?",
+        "Each picture you buy will cost 70,000 VND If you buy 4 or more pictures, we will ship the item for free!": "Mỗi tranh bạn mua sẽ có giá 70.000 VNĐ. Nếu bạn mua từ 4 tranh trở lên, chúng tôi sẽ ship hàng miễn phí!",
+        "What is the cell size": "Kích thước ô là bao nhiêu như thế nào?",
+        "They measure about 20 x 20 x 2 cm (8 x 8 inches and just under 1 inch thick)": "Chúng có kích thước khoảng 20 x 20 x 2 cm (8 x 8 inch và chỉ dày dưới 1 inch).",
+        "Do you have any other sizes": "Bạn có kích thước nào khác không?",
+        "Not now, but we will try": "Giờ thì không, nhưng chúng tôi sẽ cố gắng!",
+        "How long does loading take": "Việc lên hàng mất bao lâu?",
+        "It usually takes about a week to ensure the best quality of painting": "Thường là khoảng một tuần để đảm bảo chất lượng tranh tốt nhất.",
+        "How Mixtile works": "Cách thức hoạt động của Mixtile?",
+        "There is a special adhesive tape on the back of them You peel off the protective paper and stick them on the wall Easy as pie! (We enjoy the cake)": "Có một dải băng dính đặc biệt ở mặt sau của chúng. Bạn bóc lớp giấy bảo vệ và dán chúng lên tường. Dễ như ăn bánh! (Chúng tôi thưởng thức bánh.)",
+        "Is it easy to move pictures around": "Có dễ dàng di chuyển tranh xung quanh không?",
+        "Super easy - that's what makes Mixtiles proud! Just take them off the wall and stick them in a different location You can do this a few dozen times": "Siêu dễ dàng - đó là những gì khiến Mixtiles tự hào! Chỉ cần lấy chúng ra khỏi tường và dán chúng vào một vị trí khác. Bạn có thể làm điều này vài chục lần!",
+        "And they won't hurt my walls": "Và chúng sẽ không làm tổn thương những bức tường của tôi?",
+        "No, no damage at all": "Không, không hề thiệt hại nào.",
+        "Is there any kind of wall that Mixtiles doesn't stick to": "Có bất kỳ loại tường nào mà Mixtiles không dính vào?",
+        "They work effectively on most walls But if you have any issues, just let us know and we will assist you": "Chúng hoạt động hiệu quả trên phần lớn các bức tường. Nhưng nếu bạn gặp bất kỳ sự cố nào, chỉ cần cho chúng tôi biết và chúng tôi sẽ hỗ trợ bạn.",
+        "Is there a minimum photo resolution I should be using": "Có độ phân giải ảnh tối thiểu mà tôi nên sử dụng không?",
+        "Your photos should be at least 800 x 800 pixels in size to produce a clear print The app will warn you if your photos are smaller than that": "Các bức ảnh của bạn phải có kích thước ít nhất là 800 x 800 pixel để tạo ra bản in rõ ràng. Ứng dụng sẽ cảnh báo bạn nếu các bức ảnh của bạn nhỏ hơn thế."
+    },
+    "Slide": {
+        "name1": "minhhoang",
+        "review1": "Phòng khách của tôi trông sang trọng hơn rất nhiều <3",
+        "name2": "nguyenthuy112",
+        "review2": "Tôi đã có một lựa chọn đúng đắn. Cảm ơn Mixtiles!",
+        "name3": "vananh56",
+        "review3": "Tôi đi lên cầu thang hằng ngày luôn!",
+        "name4": "namdoan",
+        "review4": "Góc thư giãn hằng ngày của tôi!",
+        "name5": "khanhnam0902",
+        "review5": "Những bãi biển tôi đã từng đi này :D !!",
+        "name6": "minhchien",
+        "review6": "Đi về nhà!",
+        "name7": "vuhuy82",
+        "review7": "Vợ con tôi, gia đình tôi! <3",
+        "name8": "thangdang",
+        "review8": "Ngủ ngon nhé :>, tôi chắc chắn sẽ tiếp tục mua thêm để trang trí phòng khách :>",
+        "name9": "phungmy",
+        "review9": "Đằng sau bức tường là cả 1 câu chuyện tình yêu <3 ! Cảm ơn Mixtiles nhiều nhéee ^^",
+        "name10": "chidang",
+        "review10": "Chỉ định dùng thử thôi, nhưng giờ thành fan cứng :D <3 #MixtilesVietNam",
+        "name11": "chithanh",
+        "review11": "Aaaaaaaa, cảm ơn Mixtiles nhé <3",
+        "name12": "nguyetnguyen",
+        "review12": "Mỗi nơi mỗi khác!"
     }
 }
